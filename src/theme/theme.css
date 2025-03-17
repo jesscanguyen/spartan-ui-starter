@@ -1,0 +1,144 @@
+/* ======================= */
+/*        FONT IMPORTS     */
+/* ======================= */
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/Metropolis-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/Metropolis-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/Metropolis-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/Metropolis-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/Metropolis-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/Metropolis-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/Metropolis-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/Metropolis-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* ======================= */
+/*    COLOR DESIGN TOKENS  */
+/* ======================= */
+
+:root {
+  /* Primary Brand Colors */
+  --primary-color: #18453b; /* Spartan Green */
+  --secondary-color: #105e4f; /* Dark Parakeet Green */
+  --tertiary-color: #8ec6b9; /* Medium Sage */
+
+  /* Destructive */
+  --destructive-color: #b22222; /* Firebrick Red */
+  --destructive-hover: #8b1a1a; /* Darker shade of red */
+
+  /* Neutral Colors */
+  --text-color: white;
+  --background-color: #f5f5f5;
+  --hover-darken: rgba(0, 0, 0, 0.1);
+  --light-gray: #f0f0f0;
+  --medium-gray: #c1c1c1;
+  --dark-gray: #535054;
+  --charcoal-gray: #2f2f2f;
+
+  /* White & Black */
+  --white: #ffffff;
+  --black: #000000;
+
+  /* ======================= */
+  /*       STATUS COLORS     */
+  /* ======================= */
+  --success-color: #2e7d32; /* Green */
+  --success-text: #ffffff;
+
+  --warning-color: #ff9800; /* Orange */
+  --warning-text: #5a2d00; /* Darker shade for better contrast */
+
+  --danger-color: #d32f2f; /* Red */
+  --danger-text: #ffffff;
+
+  /* ======================= */
+  /*  TYPOGRAPHY DESIGN TOKENS  */
+  /* ======================= */
+  
+  --font-family: "Metropolis", sans-serif;
+
+  /* Heading Sizes */
+  --heading-1: 32px;
+  --heading-2: 24px;
+  --heading-3: 20px;
+  --heading-4: 16px;
+
+  /* Body Text */
+  --body-text: 16px;
+  --small-text: 14px;
+
+  /* Font Weights */
+  --font-thin: 100;
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-black: 900;
+
+  /* ======================= */
+  /*    SPACING TOKENS       */
+  /* ======================= */
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
+
+  /* ======================= */
+  /*     RADIUS TOKENS       */
+  /* ======================= */
+
+  --border-radius-xs: 4px;
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 32px;
+  --border-radius-xl: 64px;
+}

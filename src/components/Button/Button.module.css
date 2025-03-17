@@ -1,0 +1,85 @@
+.button {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: var(--font-semibold);
+  border: none;
+  border-radius: var(--border-radius-xs);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s ease, border 0.3s ease, transform 0.1s ease;
+}
+
+/* Button Variants */
+.primary {
+  background: var(--primary-color);
+  color: var(--text-color);
+  border: 2px solid var(--primary-color);
+}
+
+.primary:hover {
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.secondary {
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.secondary:hover {
+  background: var(--hover-darken);
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.tertiary {
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid transparent;
+}
+
+.tertiary:hover {
+  background: var(--hover-darken);
+}
+
+.destructive {
+  background: var(--destructive-color);
+  color: var(--text-color);
+  border: 2px solid var(--destructive-color);
+}
+
+.destructive:hover {
+  background: var(--destructive-hover);
+  border-color: var(--destructive-hover);
+}
+
+.button:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+
+/* Button Sizes */
+.small {
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+.medium {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.large {
+  font-size: 18px;
+  padding: 14px 28px;
+}
+
+/* Button Widths */
+.full {
+  width: 100%;
+}
+
+.half {
+  flex-grow: 0.5;
+}
