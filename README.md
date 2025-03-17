@@ -11,6 +11,18 @@ By the end of this lab, you will:
 
 ---
 
+## **🏗 Running the Project**
+
+Once your Codespace is ready, **the setup happens automatically**:
+
+- ✅ **Dependencies install automatically (`npm install`)**  
+- ✅ **Vite development server starts**  
+
+If the project does not start automatically, run:
+
+```sh
+npm run dev
+
 ## 🎯 **Lab Challenge**
 
 Your challenge is to **style the Badge component**, add status variants, and update the documentation. Use the **Button** and **Card** components as references.
