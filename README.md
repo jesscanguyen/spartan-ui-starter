@@ -22,6 +22,7 @@ If the project does not start automatically, run:
 
 ```sh
 npm run dev
+```
 
 ## 🎯 **Lab Challenge**
 
