@@ -1,7 +1,7 @@
 {
   "name": "Spartan UI Lab",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-  "postCreateCommand": "rm -rf node_modules package-lock.json && npm install",
+  "postCreateCommand": "npm install && npm run dev",
   "forwardPorts": [
     5173
   ],
