@@ -11,31 +11,31 @@
 
 /* Button Variants */
 .primary {
-  background: var(--primary-color);
+  background: var(--brand-primary);
   color: var(--text-color);
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--brand-primary);
 }
 
 .primary:hover {
-  background: var(--secondary-color);
-  border-color: var(--secondary-color);
+  background: var(--brand-secondary);
+  border-color: var(--brand-secondary);
 }
 
 .secondary {
   background: transparent;
-  color: var(--primary-color);
-  border: 2px solid var(--primary-color);
+  color: var(--brand-primary);
+  border: 2px solid var(--brand-primary);
 }
 
 .secondary:hover {
   background: var(--hover-darken);
-  color: var(--secondary-color);
-  border-color: var(--secondary-color);
+  color: var(--brand-secondary);
+  border-color: var(--brand-secondary);
 }
 
 .tertiary {
   background: transparent;
-  color: var(--primary-color);
+  color: var(--brand-primary);
   border: 2px solid transparent;
 }
 

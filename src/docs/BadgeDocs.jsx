@@ -2,6 +2,9 @@ import React from "react";
 import Badge from "../components/Badge/Badge";
 import CodePreview from "../CodePreview";
 
+// 1. Add status variants in Badge.jsx
+// 2. Update components in "Status" section
+
 const BadgeDocs = () => {
   return (
     <div className="content">
@@ -14,7 +17,18 @@ const BadgeDocs = () => {
         <Badge label="Badge" />
       </CodePreview>
 
-      {/* Add Status Section */}
+      {/* Status Section */}
+      <h3>Status</h3>
+      <CodePreview>
+        {/* Success Variant */}
+        <Badge label="Success" />
+
+        {/* Warning Variant */}
+        <Badge label="Warning" />
+
+        {/* Danger Variant */}
+        <Badge label="Danger" />
+      </CodePreview>
     </div>
   );
 };

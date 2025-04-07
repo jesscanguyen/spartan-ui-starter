@@ -1,7 +1,7 @@
 .sidebar {
   width: 268px;
   height: 100vh;
-  background: var(--primary-color);
+  background: var(--brand-primary);
   padding: var(--spacing-md);
   color: white;
   position: fixed;
@@ -44,12 +44,12 @@
 }
 
 .sidebar-link:hover {
-  background: var(--secondary-color);
+  background: var(--brand-secondary);
   padding-left: var(--spacing-md);
 }
 
 .sidebar-link.active {
   background: var(--white);
-  color: var(--primary-color);
+  color: var(--brand-primary);
   padding-left: var(--spacing-md);
 }

@@ -1,6 +1,4 @@
-/* ======================= */
-/*        FONT IMPORTS     */
-/* ======================= */
+/* MSU Font Imports (Skip These) */
 @font-face {
   font-family: "Metropolis";
   src: url("/fonts/Metropolis-Thin.ttf") format("truetype");
@@ -57,19 +55,17 @@
   font-style: normal;
 }
 
-/* ======================= */
-/*    COLOR DESIGN TOKENS  */
-/* ======================= */
+/* Design Tokens (Start Here) */
 
 :root {
-  /* Primary Brand Colors */
-  --primary-color: #18453b; /* Spartan Green */
-  --secondary-color: #105e4f; /* Dark Parakeet Green */
-  --tertiary-color: #8ec6b9; /* Medium Sage */
+  /* Brand Colors */
+  --brand-primary: #18453b;
+  --brand-secondary: #105e4f;
+  --brand-tertiary: #8ec6b9;
 
-  /* Destructive */
-  --destructive-color: #b22222; /* Firebrick Red */
-  --destructive-hover: #8b1a1a; /* Darker shade of red */
+  /* Destructive Colors */
+  --destructive-color: #b22222;
+  --destructive-hover: #8b1a1a;
 
   /* Neutral Colors */
   --text-color: white;
@@ -84,21 +80,17 @@
   --white: #ffffff;
   --black: #000000;
 
-  /* ======================= */
-  /*       STATUS COLORS     */
-  /* ======================= */
-  --success-color: #2e7d32; /* Green */
+  /* Status Colors */
+  --success-bg: #2e7d32;
   --success-text: #ffffff;
 
-  --warning-color: #ff9800; /* Orange */
-  --warning-text: #5a2d00; /* Darker shade for better contrast */
+  --warning-bg: #ff9800;
+  --warning-text: #5a2d00;
 
-  --danger-color: #d32f2f; /* Red */
+  --danger-bg: #d32f2f;
   --danger-text: #ffffff;
 
-  /* ======================= */
-  /*  TYPOGRAPHY DESIGN TOKENS  */
-  /* ======================= */
+  /* Typography */
   
   --font-family: "Metropolis", sans-serif;
 
@@ -122,9 +114,7 @@
   --font-extrabold: 800;
   --font-black: 900;
 
-  /* ======================= */
-  /*    SPACING TOKENS       */
-  /* ======================= */
+  /* Spacing Tokens */
 
   --spacing-xs: 4px;
   --spacing-sm: 8px;
@@ -132,9 +122,7 @@
   --spacing-lg: 32px;
   --spacing-xl: 64px;
 
-  /* ======================= */
-  /*     RADIUS TOKENS       */
-  /* ======================= */
+  /* Radius Tokens */
 
   --border-radius-xs: 4px;
   --border-radius-sm: 8px;
