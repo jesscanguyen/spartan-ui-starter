@@ -31,15 +31,15 @@ Your challenge is to **style the Badge component**, add status variants, and upd
 ### ✅ **Steps to Complete the Challenge**
 
 1. **Style the Badge (`Badge.module.css`)**  
-   - Set **background color** to `--primary-color`
+   - Set **background color** to `--brand-primary`
    - Set **text color** to `--text-color`  
    - Apply **border-radius** (`--border-radius-xl`)  
    - Add **padding** (`--spacing-xs` for top/bottom, `--spacing-sm` for left/right`)  
 
 2. **Add Status Variants**  
-   - **Success** (`--success-color`, `--success-text`)  
-   - **Warning** (`--warning-color`, `--warning-text`)  
-   - **Danger** (`--danger-color`, `--danger-text`)  
+   - **Success** (`--success-bg`, `--success-text`)  
+   - **Warning** (`--warning-bg`, `--warning-text`)  
+   - **Danger** (`--danger-bg`, `--danger-text`)  
 
 3. **Update the Documentation (`BadgeDocs.jsx`)**  
    - Show different **Badge variants** in the UI  
