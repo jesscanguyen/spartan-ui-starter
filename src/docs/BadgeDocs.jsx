@@ -3,6 +3,7 @@ import Badge from "../components/Badge/Badge";
 import CodePreview from "../CodePreview";
 
 // 1. Add status variants in Badge.jsx
+// 2. Stlye Badge in Badge.module.css
 // 2. Update components in "Status" section
 
 const BadgeDocs = () => {
