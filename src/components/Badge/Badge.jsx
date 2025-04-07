@@ -13,8 +13,8 @@ import styles from "./Badge.module.css";
  * 3. Add variants to docs/BadgeDocs.jsx
  */
 
-const Badge = ({ label, status }) => {
-  return <span className={`${styles.badge} ${styles[status]}`}>{label}</span>;
+const Badge = ({ label }) => {
+  return <span className={`${styles.badge}`}>{label}</span>;
 };
 
 export default Badge;
