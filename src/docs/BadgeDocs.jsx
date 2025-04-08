@@ -22,13 +22,13 @@ const BadgeDocs = () => {
       <h3>Status</h3>
       <CodePreview>
         {/* Success Variant */}
-        <Badge label="Success" />
+        <Badge label="Success" variant="success" />
 
         {/* Warning Variant */}
-        <Badge label="Warning" />
+        <Badge label="Warning" variant="warning" />
 
         {/* Danger Variant */}
-        <Badge label="Danger" />
+        <Badge label="Danger" variant="danger"/>
       </CodePreview>
     </div>
   );
